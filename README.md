@@ -1,1 +1,0 @@
-# linktoahmad.github.io
