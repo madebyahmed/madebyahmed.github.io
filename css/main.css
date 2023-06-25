@@ -18,7 +18,7 @@
 }
 
 .timeline-card:before {
-  content: "";
+  content: '';
   display: inline-block;
   position: absolute;
   background-color: #fff;
@@ -32,7 +32,7 @@
 }
 
 .timeline-card:after {
-  content: "";
+  content: '';
   display: inline-block;
   position: absolute;
   background-color: currentColor;
@@ -98,7 +98,7 @@ html {
 }
 
 .cover-bg {
-  background-image: url("../images/bb.gif");
+  background-image: url('../images/bb.gif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -176,5 +176,26 @@ footer a:not(.nav-link) {
   .page-break {
     padding-top: 5rem;
     page-break-before: always;
+  }
+}
+
+.cert-panel {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 20px 20px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  @media (max-width: 300px) {
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+  }
+}
+
+.logo-res {
+  height: 80px;
+  width: 80px;
+  @media (max-width: 350px) {
+    height: 30px;
+    width: 30px;
   }
 }
