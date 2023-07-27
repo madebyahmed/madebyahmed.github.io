@@ -185,7 +185,7 @@ footer a:not(.nav-link) {
   padding: 20px 20px 20px 0px;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
-  @media (max-width: 300px) {
+  @media (max-width: 500px) {
     flex-direction: column;
     padding: 20px 20px 20px 20px;
   }
